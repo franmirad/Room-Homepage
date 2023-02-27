@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Room homepage</title>
+</head>
+
+<body>
+  <div id="mySidenav" class="sidenav">
+    <ul>
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </ul>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+      <img src="images/icon-close.svg" alt="">
+    </a>
+  </div>
+  <nav>
+    <div id="navbar2" onclick="closeNav()">
+      <span onclick="openNav()">
+        <img src="images/icon-hamburger.svg" alt="">
+      </span>
+    </div>
+    <div id="navbar">
+      <span onclick="openNav()">
+        <img src="images/icon-hamburger.svg" alt="">
+      </span>
+    </div>
+    <img src="images/logo.svg" alt="">
+    <ul>
+      <li>Home</li>
+      <li>Shop</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+    <div></div>
+  </nav>
+  <div class="furniture">
+    <div class="furniture-image">
+      <img src="" alt="" id="image">
+    </div>
+    <div class="furniture-description">
+      <h1 class="furniture-title" id="title">
+      </h1>
+      <p class="furniture-text" id="description">
+      </p>
+      <button class="furniture-shop-button">
+        <span>
+          Shop now
+        </span>
+        <img class="" src="images/icon-arrow.svg" alt="">
+      </button>
+    </div>
+    <div class="furniture-buttons">
+      <button id="previous-button">
+        <img src="images/icon-angle-left.svg" alt="">
+      </button>
+      <button id="next-button">
+        <img src="images/icon-angle-right.svg" alt="">
+      </button>
+    </div>
+  </div>
+  <div class="footer">
+    <div>
+      <img class="flex" src="./images/image-about-dark.jpg" alt="">
+    </div>
+    <div class="footer-content">
+      <h2>
+        About our furniture
+      </h2>
+      <p>
+        Our multifunctional collection blends design and function to suit your individual taste.
+        Make each room unique, or pick a cohesive theme that best express your interests and what
+        inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+        or anything in between. Product specialists are available to help you create your dream space.
+      </p>
+    </div>
+    <div class="flex">
+      <img src="./images/image-about-light.jpg" alt="">
+    </div>
+  </div>
+  <script src="scripts/scripts.js"></script>
+</body>
+
+</html>
